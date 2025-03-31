@@ -24,7 +24,11 @@ html {
 }
 
 body {
-    background-color: var(--Grey-100);
+    background-color: var(--Grey-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 *,
@@ -68,7 +72,6 @@ h4 {
 
 .wrapper {
     max-width: 1200px;
-    margin: auto;
 }
 
 .testimonials {
